@@ -17,7 +17,7 @@ blocks:
             - 'docker push "${DOCKER_USERNAME}/dockerizing-nodejs-addressbook:latest"'
       secrets:
         - name: dockerhub
-  - name: Test
+  - name: Test1
     task:
       secrets:
         - name: dockerhub
